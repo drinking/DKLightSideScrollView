@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DKLightSideScrollView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A light horizontal scroll view."
   s.homepage         = "https://github.com/drinking/DKLightSideScrollView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
