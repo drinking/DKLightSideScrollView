@@ -1,0 +1,14 @@
+PODS:
+  - DKLightSideScrollView (0.1.0)
+
+DEPENDENCIES:
+  - DKLightSideScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  DKLightSideScrollView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DKLightSideScrollView: f9876713f33fc83ed7a23b81b24240f45bc897a9
+
+COCOAPODS: 0.36.1

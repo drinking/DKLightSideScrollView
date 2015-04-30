@@ -10,19 +10,13 @@
 Pod::Spec.new do |s|
   s.name             = "DKLightSideScrollView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DKLightSideScrollView."
-  s.description      = <<-DESC
-                       An optional longer description of DKLightSideScrollView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DKLightSideScrollView"
+  s.summary          = "A light horizontal scroll view."
+  s.homepage         = "https://github.com/drinking/DKLightSideScrollView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "drinking" => "pan49@126.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DKLightSideScrollView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/drinking/DKLightSideScrollView.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/Crazy_Drinking'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
