@@ -98,14 +98,13 @@
 - (void)removeScrollItemView:(DKLightSideScrollItemView *)itemView{
 
     [self.itemViews removeObject:itemView];
-    [UIView animateWithDuration:1 animations:^{
-        itemView.frame = CGRectZero;
-        itemView.alpha = 0;
+    
+    [itemView triggerRemoveAnimation:^{
         [self rePositionItemViews];
     } completion:^(BOOL finished) {
         [itemView removeFromSuperview];
     }];
-    //add animation
+
 }
 
 #pragma mark - DKLightSideScrollViewDelegate

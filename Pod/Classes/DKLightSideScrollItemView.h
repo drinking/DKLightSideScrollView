@@ -10,4 +10,6 @@
 
 @interface DKLightSideScrollItemView : UIView
 
+-(void)triggerRemoveAnimation:(void (^)(void))animations completion:(void (^)(BOOL finished))completion;
+
 @end
