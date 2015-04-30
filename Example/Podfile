@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DKLightSideScrollView', :exclusive => true do
+  pod "DKLightSideScrollView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DKLightSideScrollView", :path => "../"
+
+  
+end
