@@ -89,6 +89,7 @@
         [itemView addGestureRecognizer:singleFingerTap];
         [itemView setTranslatesAutoresizingMaskIntoConstraints:NO];
         [self.itemViews addObject:itemView];
+        [self.scrollView addSubview:itemView];
     }
 
     [self setNeedsLayout];
