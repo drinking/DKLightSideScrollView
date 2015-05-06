@@ -83,7 +83,7 @@
 }
 
 - (void)addScrollItemViews:(NSArray *)itemViews{
-    for (int i=0;i<self.itemViews.count;i++) {
+    for (int i=0;i<itemViews.count;i++) {
         DKLightSideScrollItemView *itemView = (DKLightSideScrollItemView *) itemViews[i];
         UITapGestureRecognizer *singleFingerTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(itemTapped:)];
         [itemView addGestureRecognizer:singleFingerTap];
