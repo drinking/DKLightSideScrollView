@@ -10,9 +10,6 @@
 
 @interface DKLightSideScrollView ()
 
-@property(nonatomic, retain) UIScrollView *scrollView;
-@property(nonatomic, retain) NSMutableArray *itemViews;
-
 @end
 
 @implementation DKLightSideScrollView

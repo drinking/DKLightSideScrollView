@@ -19,6 +19,9 @@
 
 @interface DKLightSideScrollView : UIView
 
+@property(nonatomic, strong) UIScrollView *scrollView;
+@property(nonatomic, strong) NSMutableArray *itemViews;
+
 @property (nonatomic, weak) id<DKLightSideScrollViewDelegate> delegate;
 
 @property (nonatomic, assign) CGFloat padding;
